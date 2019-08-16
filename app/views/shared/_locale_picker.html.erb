@@ -1,0 +1,18 @@
+<% if Blacklight::LocalePicker::Engine.config.available_locales.many?  %>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="language-dropdown-menu">
+      <span class="sr-only"><%= t('blacklight.toolbar.language_switch') %></span>
+      <span><%= t("locales.#{I18n.locale}") %></span>
+      <b class="caret"></b>
+    </a>
+    <ul id="language-dropdown-menu" class="dropdown-menu" role="menu">
+      <li role="presentation" class="dropdown-header"><%= t('blacklight.toolbar.language_switch') %></li>
+      <li role="presentation" class="divider"></li>
+      <% Blacklight::LocalePicker::Engine.config.available_locales.each do |language| %>
+        <li role="presentation" lang="<%= language %>">
+          <%= link_to t("locales.#{language}"), (url_for(locale: language) rescue blacklight.url_for(locale: language)), class: 'dropdown-item' %>
+        </li>
+      <% end %>
+    </ul>
+  </li>
+<% end %>
