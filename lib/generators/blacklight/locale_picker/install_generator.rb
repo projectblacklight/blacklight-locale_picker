@@ -13,5 +13,11 @@ module Blacklight::LocalePicker
         "\n  include Blacklight::LocalePicker::Concern"
       end
     end
+
+    def add_locale_picker_helpers
+      inject_into_file 'app/helpers/application_helper.rb', after: 'module ApplicationHelper' do
+        "\n  include Blacklight::LocalePicker::LocaleHelper"
+      end
+    end
   end
 end
