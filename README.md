@@ -30,3 +30,9 @@ To add locales to your application, add an initializer.
 ```
 Blacklight::LocalePicker::Engine.config.available_locales = [:en, :es]
 ```
+
+## Translations
+`blacklight-locale_picker` ships with i18n-tasks to help manage translations. To run a translation health check, run:
+```
+$ bundle exec rake i18n:health
+```
