@@ -27,7 +27,7 @@ class TestAppGenerator < Rails::Generators::Base
 
   def add_test_locales
     initializer 'test_configuration.rb' do
-      "Blacklight::LocalePicker::Engine.config.available_locales = [:en, :es]"
+      "Blacklight::LocalePicker::Engine.config.available_locales = ['en', 'es', 'pt-BR']"
     end
   end
 end
