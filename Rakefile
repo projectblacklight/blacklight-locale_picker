@@ -25,6 +25,13 @@ RSpec::Core::RakeTask.new(:spec)
 require 'rubocop/rake_task'
 RuboCop::RakeTask.new(:rubocop)
 
+namespace :i18n do
+  desc 'Check for missing translations'
+  task :health do
+    system 'bundle exec i18n-tasks health'
+  end
+end
+
 require 'engine_cart/rake_task'
 
 task ci: ['engine_cart:generate'] do
@@ -43,4 +50,4 @@ task ci: ['engine_cart:generate'] do
   end
 end
 
-task default: :ci
+task default: %i[i18n:health ci]
