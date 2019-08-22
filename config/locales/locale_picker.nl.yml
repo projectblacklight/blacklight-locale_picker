@@ -1,5 +1,8 @@
 ---
 nl:
+  blacklight:
+    header_links:
+      locale_switcher: Taal
   locales:
     de: Deutsch
     en: English

@@ -1,5 +1,8 @@
 ---
 zh:
+  blacklight:
+    header_links:
+      locale_switcher: 语言
   locales:
     de: Deutsch
     en: English

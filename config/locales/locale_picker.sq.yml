@@ -1,5 +1,8 @@
 ---
 sq:
+  blacklight:
+    header_links:
+      locale_switcher: Gjuhë
   locales:
     de: Deutsch
     en: English

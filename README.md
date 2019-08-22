@@ -28,7 +28,7 @@ $ rails generate blacklight:locale_picker:install
 ## Configuration
 To add locales to your application, add an initializer.
 ```
-Blacklight::LocalePicker::Engine.config.available_locales = [:en, :es]
+Blacklight::LocalePicker::Engine.config.available_locales = ['en', 'es', 'pt-BR']
 ```
 
 ## Translations
