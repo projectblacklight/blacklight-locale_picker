@@ -1,5 +1,8 @@
 ---
 hu:
+  blacklight:
+    header_links:
+      locale_switcher: Nyelv
   locales:
     de: Deutsch
     en: English

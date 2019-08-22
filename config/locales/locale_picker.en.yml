@@ -1,5 +1,8 @@
 ---
 en:
+  blacklight:
+    header_links:
+      locale_switcher: Language
   locales:
     de: Deutsch
     en: English
