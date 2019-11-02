@@ -1,8 +1,8 @@
 ---
-pt-BR:
+ar:
   blacklight:
     header_links:
-      locale_switcher: Idioma
+      locale_switcher: لغة
   locales:
     ar: العربية
     de: Deutsch

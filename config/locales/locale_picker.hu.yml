@@ -4,6 +4,7 @@ hu:
     header_links:
       locale_switcher: Nyelv
   locales:
+    ar: العربية
     de: Deutsch
     en: English
     es: Español
