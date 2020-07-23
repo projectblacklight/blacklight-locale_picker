@@ -19,5 +19,11 @@ module Blacklight::LocalePicker
         "\n  include Blacklight::LocalePicker::LocaleHelper"
       end
     end
+
+    def install_webpacker
+      return unless Rails.version.to_i == 6
+
+      rake 'webpacker:install'
+    end
   end
 end
