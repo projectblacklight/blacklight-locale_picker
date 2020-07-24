@@ -4,6 +4,7 @@ nl:
     header_links:
       locale_switcher: Taal
   locales:
+    ar: العربية
     de: Deutsch
     en: English
     es: Español

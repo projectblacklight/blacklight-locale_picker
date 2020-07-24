@@ -4,6 +4,7 @@ es:
     header_links:
       locale_switcher: Idioma
   locales:
+    ar: العربية
     de: Deutsch
     en: English
     es: Español

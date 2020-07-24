@@ -4,6 +4,7 @@ sq:
     header_links:
       locale_switcher: Gjuhë
   locales:
+    ar: العربية
     de: Deutsch
     en: English
     es: Español
