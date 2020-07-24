@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.summary     = ""
   spec.description = ""
   spec.license     = "Apache-2.0"
-  
+
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
@@ -21,8 +21,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.required_ruby_version = '>= 2.5.0' 
-  spec.add_dependency "rails", "~> 5.2.3"
+  spec.required_ruby_version = '>= 2.5.0'
+  spec.add_dependency "rails", ">= 5.2.3", "< 6.1"
 
   spec.add_development_dependency "capybara"
   spec.add_development_dependency "engine_cart"
