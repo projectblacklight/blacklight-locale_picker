@@ -1,3 +1,5 @@
+![Build Status](https://github.com/projectblacklight/blacklight-locale_picker/workflows/CI/badge.svg)
+
 # Blacklight::LocalePicker
 A dropdown locale switcher for Blacklight apps
 
