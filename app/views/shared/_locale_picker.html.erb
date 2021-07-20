@@ -4,7 +4,7 @@
       <span><%= t("locales.#{I18n.locale}") %></span>
       <b class="caret"></b>
     </a>
-    <ul id="language-dropdown-menu" class="dropdown-menu" role="menu">
+    <ul id="language-dropdown-menu" class="dropdown-menu">
       <li role="presentation" class="divider"></li>
       <% available_locales.each do |locale| %>
         <li role="presentation" lang="<%= locale %>">
