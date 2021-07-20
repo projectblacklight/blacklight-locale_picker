@@ -1,0 +1,18 @@
+---
+en:
+  blacklight:
+    header_links:
+      locale_switcher: Idioma
+  locales:
+    ar: العربية
+    ca: Català
+    de: Deutsch
+    en: English
+    es: Español
+    fr: Français
+    hu: Magyar
+    it: Italiano
+    nl: Nederlands
+    pt-BR: Português braileiro
+    sq: Shqip
+    zh: 中文
