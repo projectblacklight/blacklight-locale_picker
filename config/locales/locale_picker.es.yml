@@ -5,6 +5,7 @@ es:
       locale_switcher: Idioma
   locales:
     ar: العربية
+    ca: Català
     de: Deutsch
     en: English
     es: Español

@@ -5,6 +5,7 @@ sq:
       locale_switcher: Gjuhë
   locales:
     ar: العربية
+    ca: Català
     de: Deutsch
     en: English
     es: Español
