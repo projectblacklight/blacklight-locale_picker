@@ -5,6 +5,7 @@ nl:
       locale_switcher: Taal
   locales:
     ar: العربية
+    ca: Català
     de: Deutsch
     en: English
     es: Español
