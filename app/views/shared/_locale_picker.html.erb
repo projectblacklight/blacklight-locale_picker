@@ -1,6 +1,6 @@
 <% if available_locales.many?  %>
   <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="language-dropdown-menu" aria-label="<%= t('blacklight.header_links.locale_switcher') %>">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="language-dropdown-menu" aria-label="<%= t('blacklight.header_links.locale_switcher') %>">
       <span><%= t("locales.#{I18n.locale}") %></span>
       <b class="caret"></b>
     </a>
