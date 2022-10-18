@@ -8,7 +8,12 @@ class TestAppGenerator < Rails::Generators::Base
   # after setting up the application
 
   def add_gems
-    gem 'blacklight', '~> 7.0'
+    version = ENV['BLACKLIGHT_VERSION']
+    if version
+      gem 'blacklight', version
+    else
+      gem 'blacklight', github: 'projectblacklight/blacklight'
+    end
 
     Bundler.with_clean_env do
       run 'bundle install'
