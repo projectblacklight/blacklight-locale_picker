@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   test:
@@ -14,8 +14,6 @@ jobs:
         rails_version: [6.1.4.7, 7.0.2.3]
         ruby: [2.7, '3.0']
         include:
-          - ruby: 2.7
-            rails: 5.2.6.3
           - ruby: 2.7
             rails: 6.0.3.7
     env:
