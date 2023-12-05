@@ -12,7 +12,7 @@ class TestAppGenerator < Rails::Generators::Base
     if version
       gem 'blacklight', version
     else
-      gem 'blacklight', github: 'projectblacklight/blacklight'
+      gem 'blacklight' # latest version
     end
 
     Bundler.with_clean_env do
