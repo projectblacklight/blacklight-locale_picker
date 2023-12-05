@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        rails_version: [6.1.7, 7.0.4]
-        ruby: ['3.0']
+        rails_version: [6.1.7, 7.0.4, 7.1.2]
+        ruby: ['3.2']
         include:
           - ruby: 3.1
             rails_version: 7.0.4
