@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.required_ruby_version = '>= 2.5.0'
-  spec.add_dependency "rails", ">= 5.2.3", "< 7.3"
+  spec.add_dependency "rails", ">= 5.2.3", "< 9"
 
   spec.add_development_dependency "capybara"
   spec.add_development_dependency "engine_cart"
